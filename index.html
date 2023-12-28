@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>demo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chức năng mảng</title>
+      <style>
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        input {
+          margin-bottom: 10px;
+        }
+      </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="form-group text-center m-5">
+    <h1 style="color: darkgreen;">Chức năng mảng</h1>
+    
+    <!-- Nhập mảng số nguyên -->
+    <label for="inputArray">Nhập mảng số nguyên (các số cách nhau bằng dấu phẩy): </label><br>
+    <input type="text" id="inputArray" placeholder="Nhập số vd : 1,2,3,4,5..."><br>
+    
+    <!-- Chức năng -->
+    <label for="functionSelector">Chọn chức năng:</label>
+    <select id="functionSelector">
+      <option value="tongSoDuong">Tổng các số dương trong mảng</option>
+      <option value="demSoDuong">Đếm số dương trong mảng</option>
+      <option value="timSoNhoNhat">Tìm số nhỏ nhất trong mảng</option>
+      <option value="timSoDuongNhoNhat">Tìm số dương nhỏ nhất trong mảng</option>
+      <option value="timSoChanCuoiCung">Tìm số chẵn cuối cùng trong mảng</option>
+      <option value="doiCho">Đổi chỗ 2 giá trị trong mảng</option>
+      <option value="sapXepTangDan">Sắp xếp mảng theo thứ tự tăng dần</option>
+      <option value="timSoNguyenTo">Tìm số nguyên tố đầu tiên trong mảng</option>
+      <option value="soNguyenTrongMangThuc">Số nguyên trong mảng số thực</option>
+      <option value="soSanhDuongAm">So sánh số lượng số dương và số âm</option>
+    </select>
+    
+    <button onclick="thucHienChucNang()" class="btn btn-success">Thực hiện</button>
+    <br><br>
+    
+    <p id="ketQua" class="alert alert-success"></p>
+    
+</div>
+</div>
+    </body>
+    </html>
+    
+
+
+
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
